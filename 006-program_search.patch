@@ -1,0 +1,12 @@
+diff --git a/html/tv/programsearch.qsp b/mythtv/html/tv/programsearch.qsp
+index cfce030..6441e76 100644
+--- a/html/tv/programsearch.qsp
++++ b/html/tv/programsearch.qsp
+@@ -76,7 +76,7 @@ import "/tv/js/tvutil.qjs"
+     var Count = 30;
+     var Details = 1;
+     var progLoadTimeStart = new Date();
+-    var Channels = channel.GetChannelInfoList(0,0,0,1).ChannelInfos;
++    var Channels = channel.GetChannelInfoList(0,0,0,0,1).ChannelInfos;
+     var programList = Array();
+     var programs = Array();

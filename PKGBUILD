@@ -36,6 +36,8 @@ source=("$pkgname-$pkgver.tar.gz::https://github.com/MythTV/$pkgname/archive/v$p
         '002-in_progress.patch'
         '003-mythcount.patch'
         '004-exiv2.patch'
+	'005-mythuiwebbrowser.patch'
+	'006-program_search.patch'
 )
 sha256sums=('7f7ae9b8927659616f181afc12d7ddc26b0a4b0d13982e2586985f4770640b43'
             '086f573884e4df1ff6e6e8de5a423a9ff900166acfe085abe65b62f32730e4a3'
@@ -44,7 +46,9 @@ sha256sums=('7f7ae9b8927659616f181afc12d7ddc26b0a4b0d13982e2586985f4770640b43'
             '965b279c2a5c51229f0cf42b37e1df0413e22375c9796f85d10f7a5921478a42'
             'ca0084165572f679bee7813653dd67fdb7eba528e1add56d6bd6ba5394d571ea'
             '64575e3bf452d473970b1c752152b2404397012c7eb6ba64c0d445234135b5d2'
-            '689aec9cf0cb01e29c63e39381405875ffceea037b093d38f0f3e1519c200556')
+            '689aec9cf0cb01e29c63e39381405875ffceea037b093d38f0f3e1519c200556'
+            '515db30264b72f7723e94e1198d7e12028684aeca4f04b34d10d3f3b4b8763f1'
+            'acd972a27c6d3930caf02e104926fc1918caccd913247fca4e38b0745ceddee4')
 
 prepare() {
   cd $pkgname-$pkgver/$pkgname
